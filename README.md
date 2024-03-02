@@ -1,26 +1,31 @@
-AbstrActs is a benchmark dataset for abstractive multi-video captioning.
-Abstractive multi-video captioning is the task that models describe information shared by multiple videos as much as possible.
-In order to solve this task, models need to not only understand each video in detail but also have strong abstraction abilities to find commonalities among videos.
+AbstrActs is a benchmark dataset for abstractive multi-video captioning introduced in the paper "Abstractive Multi-Video Captioning: Benchmark Dataset Construction and Extensive Evaluation."
+
+![Data Sample](assets/data_sample.jpg)
+
+Abstractive multi-video captioning is the task that models describe information shared by multiple videos as much as possible.  
+In order to solve this task, models need to not only understand each video in detail but also have strong abstraction abilities to find commonalities among videos.  
+Codes for our experiments are available at https://github.com/ku-nlp/Abstractive-Multi-Video-Captioning
 
 
 ![task example](assets/task_example.jpg)
 
-# Example
-
 # JSONL Data Sample
 ```
 {
-    "caption":"a person is doing an exercise in a gym",
-    "vatex_caption":"In a gym, a man uses heavy rope to do some training.",
+    "caption":"a person is using a sewing machine",
+    "abstractness":0.62,
     "videos":[
-        {"video_id":"8Uy4XBJ20Ag_000005_000015","entailment":3,"confidence":3},
-        {"video_id":"KeJRWZAEAxM_000031_000041","entailment":2,"confidence":3},
-        {"video_id":"ae5-o3wtONA_000000_000010","entailment":5,"confidence":3},
-        {"video_id":"sjbyEx20ou4_000000_000010","entailment":2,"confidence":2}
+        {
+            "video_id":"Rdp4C01AKwE_000037_000047",
+            "ter_score":7
+        },
+        {
+            "video_id":"7T5nKVJrP5U_000120_000130",
+            "ter_score":2
+        }
     ]
 }
 ```
-![Data Sample](assets/data_sample.jpg)
 
 # Downloadable Features
 VATEX video features (CLIP4Clip):  
