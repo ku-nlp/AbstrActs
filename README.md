@@ -3,7 +3,8 @@ AbstrActs is a benchmark dataset for abstractive multi-video captioning introduc
 ![Data Sample](assets/data_sample.jpg)
 
 Abstractive multi-video captioning is the task that models describe information shared by multiple videos as much as possible.  
-In order to solve this task, models need to not only understand each video in detail but also have strong abstraction abilities to find commonalities among videos.  
+In order to solve this task, models need to not only understand each video in detail but also have strong abstraction abilities to find commonalities among videos.
+
 Codes for our experiments are available at https://github.com/ku-nlp/Abstractive-Multi-Video-Captioning
 
 
