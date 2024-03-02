@@ -30,14 +30,13 @@ VATEX caption features (fasttext):
 https://lotus.kuee.kyoto-u.ac.jp/~r-takahashi/dataset/VATEX_caption_features.zip
 
 # Citation
-If you find this dataset helpful, please cite our publication "Abstractive Multi-Video Captioning: Benchmark Dataset Construction and Extensive Evaluation"
+If you find this dataset helpful, please cite our publication.
 
 ```
-{
-
-}
+Rikito Takahashi, Hirokazu Kiyomaru, Chenhui Chu, Sadao Kurohashi.
+Abstractive Multi-Video Captioning: Benchmark Dataset Construction and Extensive Evaluation.
+In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING), (2024.5).
 ```
-
-# Licence
 
 # Acknowledgements
+This work was supported by JSPS KAKENHI Grant Number JP23H03454 and Fujitsu.
